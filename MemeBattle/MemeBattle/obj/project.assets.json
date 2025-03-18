@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\maxim\\.nuget\\packages\\": {}
+    "/Users/theobaldmazet/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxim\\OneDrive\\Bureau\\C#\\MemeBattle\\MemeBattle\\MemeBattle\\MemeBattle.csproj",
+      "projectUniqueName": "/Users/theobaldmazet/RiderProjects/MemeBattle/MemeBattle/MemeBattle/MemeBattle.csproj",
       "projectName": "MemeBattle",
-      "projectPath": "C:\\Users\\maxim\\OneDrive\\Bureau\\C#\\MemeBattle\\MemeBattle\\MemeBattle\\MemeBattle.csproj",
-      "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxim\\OneDrive\\Bureau\\C#\\MemeBattle\\MemeBattle\\MemeBattle\\obj\\",
+      "projectPath": "/Users/theobaldmazet/RiderProjects/MemeBattle/MemeBattle/MemeBattle/MemeBattle.csproj",
+      "packagesPath": "/Users/theobaldmazet/.nuget/packages/",
+      "outputPath": "/Users/theobaldmazet/RiderProjects/MemeBattle/MemeBattle/MemeBattle/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/theobaldmazet/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -61,12 +60,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.12, 8.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

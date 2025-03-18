@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vMKYCbSVyHhuksSim6OknAefY3hHBAfYXbCN5EF/sGFkIiAZDR/CW7WwHzRv14DwgexDSa1WvByXVQJq0sGy8w==",
+  "dgSpecHash": "a0NnllrKX3I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\maxim\\OneDrive\\Bureau\\C#\\MemeBattle\\MemeBattle\\MemeBattle\\MemeBattle.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/theobaldmazet/RiderProjects/MemeBattle/MemeBattle/MemeBattle/MemeBattle.csproj",
+  "expectedPackageFiles": [
+    "/Users/theobaldmazet/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/theobaldmazet/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/theobaldmazet/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.12/microsoft.netcore.app.host.osx-arm64.8.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
