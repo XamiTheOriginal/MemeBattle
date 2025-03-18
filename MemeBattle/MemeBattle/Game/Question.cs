@@ -14,22 +14,6 @@ public class Question
     }
     
     public bool IsCorrect(int answer) => answer == CorrectAnswer;
-
-    //Those are to create the Question object
-    private string initQuestion(string filePath)
-    {
-        return "";
-    }
-
-    private List<string> initChoice(string filePath)
-    {
-        throw new NotImplementedException();
-    }
-
-    private int initCorrectAwnser(string filePath)
-    {
-        return -1;
-    }
     
     public override string ToString() //For debugging purpose only
     {
