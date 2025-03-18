@@ -2,8 +2,5 @@
 
 public class QuestionManager
 {
-    public void printQuestion(Question question)
-    {
-        
-    }
+    
 }

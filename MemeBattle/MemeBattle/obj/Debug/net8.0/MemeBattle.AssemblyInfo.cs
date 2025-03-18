@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemeBattle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cffaf740f2ba098efb966d6e9ee10c6a6f36ce22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c98031d97fea57eb4dca1f894a0d7e8d284f188")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemeBattle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemeBattle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

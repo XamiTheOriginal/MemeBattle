@@ -4,7 +4,7 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        List<string> choice = new List<string>(4);
+        List<string> choice = new List<string>();
         choice.Add("Choice 1");
         choice.Add("Choice 2");
         choice.Add("Choice 3");
