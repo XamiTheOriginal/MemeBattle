@@ -4,9 +4,8 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        bool debugMod = true;
         Console.WriteLine("Are you here to debug ?(1/0)");
-        int debug = Console.Read();
+        bool debugMode = int.TryParse(Console.ReadLine(), out int debug) && debug == 1;
         if (debug > 0) //Debug part
         {
             string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
