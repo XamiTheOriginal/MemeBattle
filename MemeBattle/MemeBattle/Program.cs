@@ -4,12 +4,21 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        List<string> choice = new List<string>();
-        choice.Add("Choice 1");
-        choice.Add("Choice 2");
-        choice.Add("Choice 3");
-        choice.Add("Choice 4");
-        Question question = new Question("Question 1", choice, 3);
-        Console.Write(question.ToString());
+        string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
+        QuestionManager qManager = new QuestionManager(filepath);
+        List<Question> questions = qManager.LoadQuestions();
+        if (questions.Count > 0)
+        {
+            Console.WriteLine("Questions were loaded successfully");
+            foreach (var q in questions)
+            {
+                Console.WriteLine(q.ToString());
+                Console.WriteLine("------------------------------");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No question were found");
+        }
     }
 }
