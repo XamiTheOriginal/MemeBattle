@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace MemeBattle.Game;
+﻿namespace MemeBattle.Game;
 
 public class QuizData
 {
     //Nothing much to add in this file
-    public List<Question> Quiz { get; set; }
+    public List<Question>? Quiz;
 }

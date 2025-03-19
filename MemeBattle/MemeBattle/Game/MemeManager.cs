@@ -1,5 +1,4 @@
-﻿
-namespace MemeBattle.Game;
+﻿namespace MemeBattle.Game;
 
 public class MemeManager
 {

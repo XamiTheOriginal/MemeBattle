@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace MemeBattle.Game;
+﻿namespace MemeBattle.Game;
 
 public class Question
 {
@@ -27,7 +24,7 @@ public class Question
         {
             res += $"{this.Answers[i]}" + '\n';
         }
-        res += $"The correct anwser is {this.CorrectAnswerIndex}";
+        res += $"The correct answer is {this.CorrectAnswerIndex}";
         return res;
     }
 }

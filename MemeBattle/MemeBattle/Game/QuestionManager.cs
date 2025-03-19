@@ -1,27 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace MemeBattle.Game;
 public class QuestionManager
 {
-    public readonly string filePath;
+    private readonly string _filePath;
 
     public QuestionManager(string filepath)
     {
-        this.filePath = filepath;
+        this._filePath = filepath;
     }
 
     public List<Question> LoadQuestions()
     {
-        if (!File.Exists(this.filePath))
+        if (!File.Exists(this._filePath))
         {
             Console.WriteLine("The file doesn't exist");
             return new List<Question>();
         }
 
-        string json = File.ReadAllText(this.filePath);
+        string json = File.ReadAllText(this._filePath);
         if (string.IsNullOrWhiteSpace(json))
         {
             Console.WriteLine("The file is empty.");

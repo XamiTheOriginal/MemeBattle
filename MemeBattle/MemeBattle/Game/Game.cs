@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MemeBattle.Game;
+﻿namespace MemeBattle.Game;
 
 public class Game
 {
