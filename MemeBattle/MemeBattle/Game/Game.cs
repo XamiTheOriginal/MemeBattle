@@ -9,6 +9,10 @@ public class Game
 
     public bool CheckAnswer(Question question)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Enter the index of your response :");
+        int rep = Console.Read();
+        if (question.CorrectAnswerIndex + 1 == rep)
+            return true;
+        return false;
     }
 }
