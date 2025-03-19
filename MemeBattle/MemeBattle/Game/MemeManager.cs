@@ -4,9 +4,12 @@ namespace MemeBattle.Game;
 
 public class MemeManager
 {
-    public void PrintMeme(string filepath)
+    public void PrintMeme(string filepath) 
     {
-        throw new NotImplementedException();
+        string filePath = $"~/{filepath}";
+        string contenu = File.ReadAllText(filePath);
+        Console.WriteLine(contenu);
+        Console.WriteLine('\n');
     }
 
     public void PlaySong()

@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 namespace MemeBattle.Game;
 public class QuestionManager
 {
-        public readonly string filePath;
+    public readonly string filePath;
 
     public QuestionManager(string filepath)
     {
