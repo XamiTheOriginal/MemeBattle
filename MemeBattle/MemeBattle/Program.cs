@@ -4,21 +4,32 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
-        QuestionManager qManager = new QuestionManager(filepath);
-        List<Question> questions = qManager.LoadQuestions();
-        if (questions.Count > 0)
+        bool debugMod = true;
+        Console.WriteLine("Are you here to debug ?(1/0)");
+        int debug = Console.Read();
+        if (debug > 0) //Debug part
         {
-            Console.WriteLine("Questions were loaded successfully");
-            foreach (var q in questions)
+            string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
+
+            QuestionManager qManager = new QuestionManager(filepath);
+            List<Question> questions = qManager.LoadQuestions();
+            if (questions.Count > 0)
             {
-                Console.WriteLine(q.ToString());
-                Console.WriteLine("------------------------------");
+                Console.WriteLine("Questions were loaded successfully");
+                foreach (var q in questions)
+                {
+                    Console.WriteLine(q.ToString());
+                    Console.WriteLine("------------------------------");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No question were found");
             }
         }
-        else
+        else //Game part
         {
-            Console.WriteLine("No question were found");
+            
         }
     }
 }
