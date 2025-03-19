@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Are you here to debug ?(1/0)");
         bool debugMode = int.TryParse(Console.ReadLine(), out int debug) && debug == 1;
-        if (debug > 0) //Debug part
+        if (debugMode) //Debug part
         {
             string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
 
