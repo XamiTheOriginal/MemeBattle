@@ -1,9 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
-using System.Collections.Generic;
+﻿
 using MemeBattle.Game;
-internal class Program
+
+namespace MemeBattle;
+
+internal abstract class Program
 {
     public static void Main(string[] args)
     {
