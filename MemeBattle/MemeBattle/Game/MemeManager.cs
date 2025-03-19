@@ -1,4 +1,6 @@
-﻿namespace MemeBattle.Game;
+﻿using System;
+
+namespace MemeBattle.Game;
 
 public class MemeManager
 {

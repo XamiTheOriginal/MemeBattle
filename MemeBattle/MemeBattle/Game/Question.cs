@@ -1,4 +1,7 @@
-﻿namespace MemeBattle.Game;
+﻿using System;
+using System.Collections.Generic;
+
+namespace MemeBattle.Game;
 
 public class Question
 {

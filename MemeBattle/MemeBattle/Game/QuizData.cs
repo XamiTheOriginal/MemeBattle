@@ -1,4 +1,6 @@
-﻿namespace MemeBattle.Game;
+﻿using System.Collections.Generic;
+
+namespace MemeBattle.Game;
 
 public class QuizData
 {
