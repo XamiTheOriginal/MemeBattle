@@ -403,3 +403,15 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignorer les fichiers cache et assets
+*.cache
+*.nuget
+*.json
+*.csproj.nuget
+MemeBattle.assets.cache
+MemeBattle.GeneratedN
+
+# Ignorer un fichier spécifique
+indexLayout.xml
+*obj
