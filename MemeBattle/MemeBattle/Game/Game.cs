@@ -2,7 +2,7 @@
 
 public class Game
 {
-    public void Play()
+    public void Play() //J'ai pété
     {
         throw new NotImplementedException();
     }
