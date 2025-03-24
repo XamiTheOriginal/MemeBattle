@@ -2,9 +2,22 @@
 
 public class Game
 {
-    public void Play() //J'ai pété
+    public int NumberTurn = 0;
+    
+    public Game(int numberTurn)
     {
-        throw new NotImplementedException();
+        this.NumberTurn = numberTurn;
+    }
+    
+
+    public void AskQuestion(Question question)
+    {
+        Console.WriteLine(question.QuestionText);
+        for (int i = 0; i < question.Answers.Count; ++i)
+        {
+            Console.WriteLine(question.Answers[i]);
+        }
+        Console.WriteLine("Enter your response :");
     }
 
     public bool CheckAnswer(Question question)

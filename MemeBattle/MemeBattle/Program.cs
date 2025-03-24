@@ -1,5 +1,4 @@
-﻿
-using MemeBattle.Game;
+﻿using MemeBattle.Game;
 
 namespace MemeBattle;
 
@@ -31,7 +30,8 @@ internal abstract class Program
         }
         else //Game part
         {
-            
+            Game.Game game = new Game.Game(3);
+            game.Play();
         }
     }
 }
