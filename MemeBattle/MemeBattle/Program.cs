@@ -31,7 +31,10 @@ internal abstract class Program
         else //Game part
         {
             Game.Game game = new Game.Game(3);
-            game.Play();
+            for (int i = 0; i < game.NumberTurn; ++i)
+            {
+                //game.AskQuestion();
+            }
         }
     }
 }
