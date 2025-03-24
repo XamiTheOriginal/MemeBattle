@@ -15,7 +15,6 @@ public class Game
         {
             Console.WriteLine(question.Answers[i]);
         }
-        Console.WriteLine("Enter your response :");
     }
 
     public bool CheckAnswer(Question question)
