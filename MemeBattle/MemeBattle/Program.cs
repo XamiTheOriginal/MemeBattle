@@ -6,6 +6,7 @@ internal abstract class Program
 {
     public static void Main(string[] args)
     {
+        Random random = new Random();
         Console.WriteLine("Are you here to debug ?(1/0)");
         bool debugMode = int.TryParse(Console.ReadLine(), out int debug) && debug == 1;
         if (debugMode) //Debug part
@@ -30,10 +31,20 @@ internal abstract class Program
         }
         else //Game part
         {
-            Game.Game game = new Game.Game(3);
+            int temp = random.Next(0, 11);
+            Game.Game game = new Game.Game(temp);
             for (int i = 0; i < game.NumberTurn; ++i)
             {
-                //game.AskQuestion();
+                Question currQuestion = new Question("", new List<string>(), temp);
+                game.AskQuestion(currQuestion); //TODO : correct me
+                if(game.CheckAnswer(currQuestion))
+                {
+                    Console.WriteLine("GG BRO");
+                }
+                else
+                {
+                    
+                }
             }
         }
     }

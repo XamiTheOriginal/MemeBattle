@@ -15,7 +15,8 @@ public class Question
     
     public bool IsCorrect(int answer) => answer == CorrectAnswerIndex;
     
-    public override string ToString() //For debugging purpose only
+    public override string ToString() //For debugging purpose only or to play the game (uncomment the last comment for
+                                      //debugging purpose
     {
         string res = "";
         int l = this.Answers.Count;
@@ -24,7 +25,7 @@ public class Question
         {
             res += $"{this.Answers[i]}" + '\n';
         }
-        res += $"The correct answer is {this.CorrectAnswerIndex}";
+        //res += $"The correct answer is {this.CorrectAnswerIndex}";
         return res;
     }
 }

@@ -8,8 +8,6 @@ public class Game
     {
         this.NumberTurn = numberTurn;
     }
-    
-
     public void AskQuestion(Question question)
     {
         Console.WriteLine(question.QuestionText);

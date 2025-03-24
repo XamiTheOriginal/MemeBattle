@@ -1,8 +1,8 @@
 ﻿namespace MemeBattle.Game;
 
-public class MemeManager
+public static class MemeManager
 {
-    public void PrintMeme(string filepath) 
+    public static void PrintMeme(string filepath) 
     {
         string filePath = $"~/{filepath}";
         string content = File.ReadAllText(filePath);
@@ -10,7 +10,7 @@ public class MemeManager
         Console.WriteLine('\n');
     }
 
-    public void PlaySong()
+    public static void PlaySong() //Not sure to implement it for now
     {
         throw new NotImplementedException();
     }
