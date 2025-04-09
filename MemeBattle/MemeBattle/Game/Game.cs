@@ -21,8 +21,8 @@ public class Game
     public bool CheckAnswer(Question question)
     {
         Console.WriteLine("Enter the index of your response :");
-        int rep = Console.Read();
-        if (question.CorrectAnswerIndex + 1 == rep)
+        int rep = Console.Read() - '0';
+        if (question.CorrectAnswerIndex == rep)
             return true;
         return false;
     }
