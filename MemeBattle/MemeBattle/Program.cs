@@ -36,7 +36,7 @@ internal abstract class Program
         }
         else //Game part
         {
-            int temp = random.Next(0, 11);
+            int temp = random.Next(0, range+1);
             Game.Game game = new Game.Game(temp);
 
             string filePath = Path.Combine(AppContext.BaseDirectory, "Game", "Questions.json");
@@ -53,7 +53,7 @@ internal abstract class Program
                 }
                 else
                 {
-                    MemeManager.PrintMemeRandom(range);
+                    //MemeManager.PrintMemeRandom(range);
                     Console.WriteLine($"The correct answer was : {currQuestion.CorrectAnswerIndex.ToString()}");
                     //TODO : override the ToString for CorrectAnswerIndex
                 }

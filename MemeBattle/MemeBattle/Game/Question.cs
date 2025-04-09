@@ -6,7 +6,9 @@ public class Question
 {
     [JsonProperty("question")]
     public string QuestionText { get; set; }
+    [JsonProperty("answers")]
     public List<string> Answers { get; set; }
+    [JsonProperty("correctAnswerIndex")]
     public int CorrectAnswerIndex { get; set; }
     
     public Question(string questionText, List<string> answers, int correctAnswerIndex) //Mostly for tests
