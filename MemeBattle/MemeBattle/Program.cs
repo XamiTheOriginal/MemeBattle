@@ -6,6 +6,11 @@ internal abstract class Program
 {
     public static void Main(string[] args)
     {
+        string memesPath = Path.Combine(AppContext.BaseDirectory, "Memes");
+        int range = Directory.Exists(memesPath) 
+            ? Directory.GetFiles(memesPath, "*.txt").Length 
+            : 0;
+        
         Random random = new Random();
         Console.WriteLine("Are you here to debug ?(1/0)");
         bool debugMode = int.TryParse(Console.ReadLine(), out int debug) && debug == 1;
@@ -43,7 +48,7 @@ internal abstract class Program
                 }
                 else
                 {
-                    MemeManager.PrintMemeRandom(1);
+                    MemeManager.PrintMemeRandom(range);
                     Console.WriteLine($"The correct answer was : {currQuestion.CorrectAnswerIndex.ToString()}");
                     //TODO : override the ToString for CorrectAnswerIndex
                 }
