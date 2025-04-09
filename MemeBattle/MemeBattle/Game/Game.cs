@@ -10,7 +10,8 @@ public class Game
     }
     public void AskQuestion(Question question)
     {
-        Console.WriteLine(question.QuestionText);
+        Console.WriteLine();
+        Console.WriteLine($"QuestionText : {question.QuestionText}");
         for (int i = 0; i < question.Answers.Count; ++i)
         {
             Console.WriteLine(question.Answers[i]);
