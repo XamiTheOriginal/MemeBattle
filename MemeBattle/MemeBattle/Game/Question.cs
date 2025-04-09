@@ -1,7 +1,10 @@
-﻿namespace MemeBattle.Game;
+﻿using Newtonsoft.Json;
+
+namespace MemeBattle.Game;
 
 public class Question
 {
+    [JsonProperty("question")]
     public string QuestionText { get; set; }
     public List<string> Answers { get; set; }
     public int CorrectAnswerIndex { get; set; }

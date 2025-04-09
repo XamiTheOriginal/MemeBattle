@@ -35,4 +35,10 @@ public class QuestionManager
             return new List<Question>();
         }
     }
+
+    public class QuizData
+    {
+        [JsonProperty("quiz")]
+        public List<Question> Quiz { get; set; }
+    }
 }
