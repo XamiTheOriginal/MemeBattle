@@ -17,4 +17,11 @@
     </Content>
   </ItemGroup>
 
+    <ItemGroup>
+        <Content Include="Game\Questions.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <Link>Game\Questions.json</Link> <!-- Important pour que le sous-dossier soit respecté -->
+        </Content>
+    </ItemGroup>
+
 </Project>

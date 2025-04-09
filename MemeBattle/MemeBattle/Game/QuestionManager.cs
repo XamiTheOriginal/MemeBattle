@@ -14,8 +14,7 @@ public class QuestionManager
     {
         if (!File.Exists(this._filePath))
         {
-            Console.WriteLine("The file doesn't exist");
-            return new List<Question>();
+            throw new FileNotFoundException("The question file doesn't exist");
         }
 
         string json = File.ReadAllText(this._filePath);

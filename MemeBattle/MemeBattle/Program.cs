@@ -38,9 +38,14 @@ internal abstract class Program
         {
             int temp = random.Next(0, 11);
             Game.Game game = new Game.Game(temp);
+
+            string filePath = Path.Combine(AppContext.BaseDirectory, "Game", "Questions.json");
+            var manager = new QuestionManager(filePath);
+            List<Question> questList = manager.LoadQuestions();
+            
             for (int i = 0; i < game.NumberTurn; ++i)
             {
-                Question currQuestion = new Question("", new List<string>(), temp);
+                Question currQuestion = questList[i];
                 game.AskQuestion(currQuestion); //TODO : correct me
                 if(game.CheckAnswer(currQuestion))
                 {
