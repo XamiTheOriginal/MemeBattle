@@ -43,7 +43,7 @@ internal abstract class Program
                 }
                 else
                 {
-                    MemeManager.PrintMeme("");//TODO : a method to print a meme from a random file
+                    MemeManager.PrintMemeRandom(1);//TODO : a method to print a meme from a random file
                     Console.WriteLine($"The correct answer was : {currQuestion.CorrectAnswerIndex.ToString()}");
                     //TODO : override the ToString for CorrectAnswerIndex
                 }
