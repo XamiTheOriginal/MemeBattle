@@ -7,22 +7,23 @@ internal abstract class Program
     public static void Main(string[] args)
     {
         string memesPath = Path.Combine(AppContext.BaseDirectory, "Memes");
-        int range = Directory.Exists(memesPath) 
-            ? Directory.GetFiles(memesPath, "*.txt").Length 
+        int memeCount = Directory.Exists(memesPath)
+            ? Directory.GetFiles(memesPath, "*.txt").Length
             : 0;
-        
-        Random random = new Random();
-        Console.WriteLine("Are you here to debug ?(1/0)");
+
+        Console.WriteLine("Are you here to debug ? (1 = yes / 0 = no)");
         bool debugMode = int.TryParse(Console.ReadLine(), out int debug) && debug == 1;
-        if (debugMode) //Debug part
+
+        if (debugMode)
         {
             string filepath = @"C:\Users\maxim\OneDrive\Bureau\C#\MemeBattle\MemeBattle\MemeBattle\Game\Questions.json";
 
             QuestionManager qManager = new QuestionManager(filepath);
             List<Question> questions = qManager.LoadQuestions();
+
             if (questions.Count > 0)
             {
-                Console.WriteLine("Questions were loaded successfully");
+                Console.WriteLine("Questions were loaded successfully\n");
                 foreach (var q in questions)
                 {
                     Console.WriteLine(q.ToString());
@@ -31,34 +32,59 @@ internal abstract class Program
             }
             else
             {
-                Console.WriteLine("No question were found");
+                Console.WriteLine("No questions were found");
             }
         }
-        else //Game part
+        else
         {
-            int temp = random.Next(0, range+1);
-            Game.Game game = new Game.Game(temp);
-
+            
             string filePath = Path.Combine(AppContext.BaseDirectory, "Game", "Questions.json");
             var manager = new QuestionManager(filePath);
             List<Question> questList = manager.LoadQuestions();
-            
-            for (int i = 0; i < game.NumberTurn; ++i)
+
+            if (questList.Count == 0)
             {
-                Question currQuestion = questList[i];
-                game.AskQuestion(currQuestion); //TODO : correct me
-                if(game.CheckAnswer(currQuestion))
+                Console.WriteLine("No questions found in the file.");
+                return;
+            }
+
+            Console.Write($"How many questions do you want to play? (max {questList.Count}) : ");
+            if (!int.TryParse(Console.ReadLine(), out int requestedCount) || requestedCount <= 0)
+            {
+                Console.WriteLine("Invalid number of questions. Exiting.");
+                return;
+            }
+
+            int numQuestions = Math.Min(requestedCount, questList.Count);
+            Game.Game game = new Game.Game(numQuestions);
+
+            // Mélanger les questions et en prendre les N premières
+            Random rng = new Random();
+            var selectedQuestions = questList.OrderBy(_ => rng.Next()).Take(numQuestions).ToList();
+
+            int score = 0;
+
+            foreach (var question in selectedQuestions)
+            {
+                game.AskQuestion(question);
+
+                if (game.CheckAnswer(question))
                 {
-                    Console.WriteLine("GG BRO");
+                    Console.WriteLine("GG BRO\n");
+                    score++;
                 }
                 else
                 {
-                    //MemeManager.PrintMemeRandom(range);
-                    Console.WriteLine($"The correct answer was : {currQuestion.CorrectAnswerIndex.ToString()}");
-                    //TODO : override the ToString for CorrectAnswerIndex
+                    Console.WriteLine("Wrong answer!");
+                    Console.WriteLine($"The correct answer was: {question.Answers[question.CorrectAnswerIndex]}\n");
+                    
+                    MemeManager.PrintMemeRandom(memeCount);
                 }
-                Console.WriteLine("---------------------------------------------------------------------------");
+
+                Console.WriteLine("---------------------------------------------------------------------------\n");
             }
+
+            Console.WriteLine($"Your final score is {score}/{game.NumberTurn} !");
         }
     }
 }

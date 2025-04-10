@@ -18,21 +18,27 @@ public class Game
         }
     }
 
-    public bool CheckAnswer(Question question) //TODO : Fix me
+    public bool CheckAnswer(Question question)
     {
-        Console.WriteLine("Enter the index of your response :");
+        Console.WriteLine("Enter the index of your response:");
         string? reponse = Console.ReadLine();
-        if (reponse.Length > 2)
+
+        // Vérifie que la réponse contient exactement 1 caractère numérique
+        if (string.IsNullOrEmpty(reponse) || reponse.Length != 1 || !char.IsDigit(reponse[0]))
         {
             Console.WriteLine("Enter only one digit between 0 and 3");
-            return CheckAnswer(question);
+            return CheckAnswer(question); // récursif mais sécurisé
         }
+
         int rep = reponse[0] - '0';
+
         if (rep < 0 || rep >= question.Answers.Count)
         {
             Console.WriteLine("Out of bounds, choose a valid index.");
             return CheckAnswer(question);
         }
+
         return question.CorrectAnswerIndex == rep;
     }
+
 }
