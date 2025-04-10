@@ -18,12 +18,21 @@ public class Game
         }
     }
 
-    public bool CheckAnswer(Question question)
+    public bool CheckAnswer(Question question) //TODO : Fix me
     {
         Console.WriteLine("Enter the index of your response :");
-        int rep = Console.Read() - '0';
-        if (question.CorrectAnswerIndex == rep)
-            return true;
-        return false;
+        string? reponse = Console.ReadLine();
+        if (reponse.Length > 2)
+        {
+            Console.WriteLine("Enter only one digit between 0 and 3");
+            return CheckAnswer(question);
+        }
+        int rep = reponse[0] - '0';
+        if (rep < 0 || rep >= question.Answers.Count)
+        {
+            Console.WriteLine("Out of bounds, choose a valid index.");
+            return CheckAnswer(question);
+        }
+        return question.CorrectAnswerIndex == rep;
     }
 }
