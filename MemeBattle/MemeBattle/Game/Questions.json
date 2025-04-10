@@ -86,37 +86,37 @@
     },
     {
       "id": 15,
-      "question": "which of the following is not a prime number?",
+      "question": "Which of the following is not a prime number?",
       "answers": ["7", "61", "1", "2"],
       "correctAnswerIndex": 2
     },
     {
       "id": 16,
-      "question": "which colour has the longest wave-length?",
+      "question": "Which colour has the longest wave-length?",
       "answers": ["lemon", "Red", "Green", "Blue"],
       "correctAnswerIndex": 1
     },
     {
       "id": 17,
-      "question": "biggest streamer on youtube?",
+      "question": "Biggest streamer on youtube?",
       "answers": ["PewDiePie", "IShowSpeed", "Carryminati", "KSI"],
       "correctAnswerIndex": 1
     },
     {
       "id": 18,
-      "question": "complete the brairot word: skibidi ______?",
+      "question": "Complete the brairot word: skibidi ______?",
       "answers": ["Man", "washroom", "toilet", "skubidu"],
       "correctAnswerIndex": 2
     },
     {
       "id": 19,
-      "question": "best way the propose a girl?",
+      "question": "Best way the propose a girl?",
       "answers": ["direct approach", "become her bbf", "be toxic", "eat five-star and do nothing"],
       "correctAnswerIndex": 3
     },
     {
       "id": 20,
-      "question": "what is glass made up of (minecraft-edition)?",
+      "question": "What is glass made up of (minecraft-edition)?",
       "answers": ["soil", "carbon", "sand", "crystal"],
       "correctAnswerIndex": 2
     }
