@@ -122,31 +122,31 @@
     },
     {
       "id": 21,
-      "question": "who has done the most work in the project?",
+      "question": "Who has done the most work in the project?",
       "answers": ["Maxime", "TheoBald", "guillaume", "Piyush and Tanishq"],
       "correctAnswerIndex": 0
     },
     {
       "id": 22,
-      "question": "which of the following is a chapri game?",
+      "question": "Which of the following is a chapri game?",
       "answers": ["PUBG", "COC", "candy crush", "freefire"],
       "correctAnswerIndex": 3
     },
     {
       "id": 23,
-      "question": "what is a mountain chicken?",
+      "question": "What is a mountain chicken?",
       "answers": ["big hen", "cat", "frog", "dinosaur"],
       "correctAnswerIndex": 2
     },
     {
       "id": 24,
-      "question": "which skin colour is superior?",
+      "question": "Which skin colour is superior?",
       "answers": ["white", "black", "brown", "all are equal ^_^"],
       "correctAnswerIndex": 3
     },
     {
       "id": 25,
-      "question": "whats is the maximum hight of a mountain that can exist on earth withpout collapsing?",
+      "question": "Whats is the maximum hight of a mountain that can exist on earth withpout collapsing?",
       "answers": ["8.5km", "10km", "15km", "65km"],
       "correctAnswerIndex": 1
     }
