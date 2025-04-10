@@ -32,13 +32,13 @@ public class Game
 
         int rep = reponse[0] - '0';
 
-        if (rep < 0 || rep >= question.Answers.Count)
+        if (rep < 1 || rep >= question.Answers.Count)
         {
             Console.WriteLine("Out of bounds, choose a valid index.");
             return CheckAnswer(question);
         }
 
-        return question.CorrectAnswerIndex == rep;
+        return question.CorrectAnswerIndex+1 == rep;
     }
 
 }
