@@ -38,7 +38,7 @@ public class Game
             return CheckAnswer(question);
         }
 
-        return question.CorrectAnswerIndex == rep;
+        return question.CorrectAnswerIndex+1 == rep;
     }
 
 }
