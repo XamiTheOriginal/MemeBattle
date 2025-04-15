@@ -59,6 +59,96 @@
       "question": "Which planet is called the Red Planet?",
       "answers": ["Jupiter", "Mars", "Saturn", "Venus"],
       "correctAnswerIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is not actually a colour?",
+      "answers": ["pink", "red", "grey", "blue"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Which of the following has the most manga sales?",
+      "answers": ["one-piece", "naruto", "solo-leveling", "dragon ball"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Which planet has the largest mountain in the solar system?",
+      "answers": ["earth", "jupiter", "saturn", "mars"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "According to ishowspeed who is the goat?",
+      "answers": ["CR7", "Messi", "Neymar", "Mohamed Salah"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is not a prime number?",
+      "answers": ["7", "61", "1", "2"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Which colour has the longest wave-length?",
+      "answers": ["lemon", "Red", "Green", "Blue"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Biggest streamer on youtube?",
+      "answers": ["PewDiePie", "IShowSpeed", "Carryminati", "KSI"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "Complete the brairot word: skibidi ______?",
+      "answers": ["Man", "washroom", "toilet", "skubidu"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Best way the propose a girl?",
+      "answers": ["direct approach", "become her bbf", "be toxic", "eat five-star and do nothing"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "What is glass made up of (minecraft-edition)?",
+      "answers": ["soil", "carbon", "sand", "crystal"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "Who has done the most work in the project?",
+      "answers": ["Maxime", "TheoBald", "guillaume", "Piyush and Tanishq"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is a chapri game?",
+      "answers": ["PUBG", "COC", "candy crush", "freefire"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "What is a mountain chicken?",
+      "answers": ["big hen", "cat", "frog", "dinosaur"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Which skin colour is superior?",
+      "answers": ["white", "black", "brown", "all are equal ^_^"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 25,
+      "question": "Whats is the maximum hight of a mountain that can exist on earth withpout collapsing?",
+      "answers": ["8.5km", "10km", "15km", "65km"],
+      "correctAnswerIndex": 1
     }
   ]
 }
