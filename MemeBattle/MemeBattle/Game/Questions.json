@@ -175,6 +175,12 @@
       "question": "What phrase is commonly associated with the “Mocking SpongeBob” meme?",
       "answers": ["Okay, Boss", "RePeAt ThIs LiKe An IdIoT.", "Why you mad?", "Chill out bro!"],
       "correctAnswerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "What meme features two buttons and a sweating man trying to decide?",
+      "answers": ["Confused Guy", "Two Button Dilemma", "Sweating Man Decision", "Hard Choice Meme"],
+      "correctAnswerIndex": 1
     }
   ]
 }
