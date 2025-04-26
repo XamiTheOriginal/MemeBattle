@@ -157,6 +157,12 @@
       "answers": ["A woman explaining politics to a cat", "A dramatic argument with a confused reaction", "A joke about cookingø", "65km"],
       "correctAnswerIndex": 1
 
+    },
+    {
+      "id": 27,
+      "question": "What is the name of the popular meme featuring a dog surrounded by flames saying “This is fine”?",
+      "answers": ["This is fine", "Dog in fire", "Flame dog", "Fire dog"],
+      "correctAnswerIndex": 0
     }
   ]
 }
