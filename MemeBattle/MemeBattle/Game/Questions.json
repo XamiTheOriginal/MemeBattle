@@ -163,6 +163,12 @@
       "question": "What is the name of the popular meme featuring a dog surrounded by flames saying “This is fine”?",
       "answers": ["This is fine", "Dog in fire", "Flame dog", "Fire dog"],
       "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Which meme shows a woman yelling at a confused-looking cat sitting at a dinner table?",
+      "answers": ["Angry Karen Cat", "Woman Yelling at a Cat", "Dinner Drama", "Screaming Lady Cat"],
+      "correctAnswerIndex": 1
     }
   ]
 }
