@@ -187,6 +187,12 @@
       "question": "Which meme features a shocked Pikachu face?",
       "answers": ["Pikachu Surprise", "Shocked Pikachu", "Pikachu Reacts", "Pika Shock"],
       "correctAnswerIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "What does the “Arthur’s Fist” meme represent?",
+      "answers": ["Anger and frustration", "Happiness", "Sadness", "Confusion"],
+      "correctAnswerIndex": 0
     }
   ]
 }
