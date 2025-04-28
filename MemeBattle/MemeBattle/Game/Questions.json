@@ -181,6 +181,12 @@
       "question": "What meme features two buttons and a sweating man trying to decide?",
       "answers": ["Confused Guy", "Two Button Dilemma", "Sweating Man Decision", "Hard Choice Meme"],
       "correctAnswerIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "Which meme features a shocked Pikachu face?",
+      "answers": ["Pikachu Surprise", "Shocked Pikachu", "Pikachu Reacts", "Pika Shock"],
+      "correctAnswerIndex": 1
     }
   ]
 }
