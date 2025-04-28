@@ -193,6 +193,24 @@
       "question": "What does the “Arthur’s Fist” meme represent?",
       "answers": ["Anger and frustration", "Happiness", "Sadness", "Confusion"],
       "correctAnswerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "What is the main theme of the “Distracted Boyfriend” meme?",
+      "answers": ["Distraction", "Love triangle", "Friendship", "Work-life balance"],
+      "correctAnswerIndex": 1
     }
+    // {
+    //   "id": 34,
+    //   "question": "Which meme features a dog with a Shiba Inu face and Comic Sans text?",
+    //   "answers": ["Doge", "Shiba Meme", "Inu Meme", "Doggo"],
+    //   "correctAnswerIndex": 0
+    // },
+    // {
+    //   "id": 35,
+    //   "question": "What is the main theme of the “Change My Mind” meme?",
+    //   "answers": ["Debate and discussion", "Argument", "Friendship", "Love"],
+    //   "correctAnswerIndex": 0
+    // }
   ]
 }
