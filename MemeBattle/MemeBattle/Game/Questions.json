@@ -217,13 +217,13 @@
       "question": "What is the main theme of the “Is This a Pigeon?” meme?",
       "answers": ["Misunderstanding", "Confusion", "Love", "Friendship"],
       "correctAnswerIndex": 1
-    }
-    // {
-    //   "id": 37,
-    //   "question": "What is the main theme of the “Expanding Brain” meme?",
-    //   "answers": ["Intelligence and enlightenment", "Dumbness", "Friendship", "Love"],
-    //   "correctAnswerIndex": 0
-    // },
+    },
+    {
+      "id": 37,
+      "question": "What is the main theme of the “Expanding Brain” meme?",
+      "answers": ["Intelligence and enlightenment", "Dumbness", "Friendship", "Love"],
+      "correctAnswerIndex": 0
+    },
     // {
     //   "id": 38,
     //   "question": "What is the main theme of the “Surprised Pikachu” meme?",
