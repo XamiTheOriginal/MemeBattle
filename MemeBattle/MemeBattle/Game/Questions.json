@@ -229,13 +229,13 @@
       "question": "What is the main theme of the “Surprised Pikachu” meme?",
       "answers": ["Shock and surprise", "Happiness", "Sadness", "Anger"],
       "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "What is the main theme of the “Two Buttons” meme?",
+      "answers": ["Decision-making", "Friendship", "Love", "Happiness"],
+      "correctAnswerIndex": 0
     }
-    // {
-    //   "id": 39,
-    //   "question": "What is the main theme of the “Two Buttons” meme?",
-    //   "answers": ["Decision-making", "Friendship", "Love", "Happiness"],
-    //   "correctAnswerIndex": 0
-    // },
     // {
     //   "id": 40,
     //   "question": "What is the main theme of the “Drake Hotline Bling” meme?",
