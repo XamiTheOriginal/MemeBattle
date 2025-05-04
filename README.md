@@ -60,3 +60,16 @@ d) Batman
 Your answer: b  
 Correct! +1 point
 
+
+
+
+
+🚀 Future Enhancements
+
+-> Add a GUI version using WinForms or WPF
+
+-> Multiplayer over LAN
+
+-> Import memes/images for visual questions
+
+-> Leaderboard and player stats
