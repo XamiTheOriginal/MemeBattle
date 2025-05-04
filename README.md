@@ -24,3 +24,13 @@ Language: C#
 IDE: Visual Studio / VS Code
 
 Platform: .NET Core Console App
+
+
+🧱 Project Structure
+
+MemeBattle/
+├── Program.cs
+├── Player.cs
+├── Question.cs
+├── Game.cs
+├── README.md
