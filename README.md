@@ -15,7 +15,7 @@ Meme Battle is a fun and interactive C# console-based quiz game where players co
 
 🧠 Score tracking and winner announcement
 
-
+🧹 Object-Oriented Programming principles used
 
 🛠️ Tech Stack
 
