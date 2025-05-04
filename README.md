@@ -43,3 +43,6 @@ Clone the repository
 
 Navigate to the project folder
 -> cd MemeBattle
+
+Run the app
+-> dotnet run
