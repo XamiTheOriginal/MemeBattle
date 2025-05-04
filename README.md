@@ -46,3 +46,14 @@ MemeBattle/
 
 3) Run the app
 -> dotnet run
+
+🧠 Sample Gameplay
+
+Player 1: What meme is this line from — "One does not simply..."?
+a) Shrek  
+b) Boromir  
+c) Yoda  
+d) Batman  
+
+Your answer: b  
+Correct! +1 point
