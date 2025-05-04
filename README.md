@@ -34,3 +34,9 @@ MemeBattle/
 ├── Question.cs
 ├── Game.cs
 ├── README.md
+
+
+▶️ How to Run
+
+Clone the repository
+-> git clone https://github.com/yourusername/MemeBattle.git
