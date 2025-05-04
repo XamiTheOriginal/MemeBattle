@@ -40,3 +40,6 @@ MemeBattle/
 
 Clone the repository
 -> git clone https://github.com/yourusername/MemeBattle.git
+
+Navigate to the project folder
+-> cd MemeBattle
