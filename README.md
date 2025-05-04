@@ -52,6 +52,7 @@ MemeBattle/
 🧠 Sample Gameplay
 
 Player 1: What meme is this line from — "One does not simply..."?
+
 a) Shrek  
 b) Boromir  
 c) Yoda  
