@@ -79,6 +79,7 @@ Correct! +1 point
 
 🙋‍♂️ About the Developer
 Maxime Douillard, Tanishq gupta, Theobald Mazet, Piyush Kumar, Guillaume Hardy
+
 1st Year B.Tech CSE Student
 Passionate about memes, coding, and AI
 
