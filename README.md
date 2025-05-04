@@ -38,11 +38,11 @@ MemeBattle/
 
 ▶️ How to Run
 
-Clone the repository
+1) Clone the repository
 -> git clone https://github.com/yourusername/MemeBattle.git
 
-Navigate to the project folder
+2) Navigate to the project folder
 -> cd MemeBattle
 
-Run the app
+3) Run the app
 -> dotnet run
