@@ -14,3 +14,13 @@ Meme Battle is a fun and interactive C# console-based quiz game where players co
 ⏱️ Timer-based questions (optional/bonus)
 
 🧠 Score tracking and winner announcement
+
+
+
+🛠️ Tech Stack
+
+Language: C#
+
+IDE: Visual Studio / VS Code
+
+Platform: .NET Core Console App
