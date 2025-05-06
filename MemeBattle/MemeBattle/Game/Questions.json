@@ -149,6 +149,98 @@
       "question": "Whats is the maximum hight of a mountain that can exist on earth withpout collapsing?",
       "answers": ["8.5km", "10km", "15km", "65km"],
       "correctAnswerIndex": 1
+
+    },
+    {
+      "id": 26,
+      "question": "What’s the usual context of the “Woman Yelling at a Cat” meme?",
+      "answers": ["A woman explaining politics to a cat", "A dramatic argument with a confused reaction", "A joke about cookingø", "65km"],
+      "correctAnswerIndex": 1
+
+    },
+    {
+      "id": 27,
+      "question": "What is the name of the popular meme featuring a dog surrounded by flames saying “This is fine”?",
+      "answers": ["This is fine", "Dog in fire", "Flame dog", "Fire dog"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Which meme shows a woman yelling at a confused-looking cat sitting at a dinner table?",
+      "answers": ["Angry Karen Cat", "Woman Yelling at a Cat", "Dinner Drama", "Screaming Lady Cat"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "What phrase is commonly associated with the “Mocking SpongeBob” meme?",
+      "answers": ["Okay, Boss", "RePeAt ThIs LiKe An IdIoT.", "Why you mad?", "Chill out bro!"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "What meme features two buttons and a sweating man trying to decide?",
+      "answers": ["Confused Guy", "Two Button Dilemma", "Sweating Man Decision", "Hard Choice Meme"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "Which meme features a shocked Pikachu face?",
+      "answers": ["Pikachu Surprise", "Shocked Pikachu", "Pikachu Reacts", "Pika Shock"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "What does the “Arthur’s Fist” meme represent?",
+      "answers": ["Anger and frustration", "Happiness", "Sadness", "Confusion"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "What is the main theme of the “Distracted Boyfriend” meme?",
+      "answers": ["Distraction", "Love triangle", "Friendship", "Work-life balance"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "Which meme features a dog with a Shiba Inu face and Comic Sans text?",
+      "answers": ["Doge", "Shiba Meme", "Inu Meme", "Doggo"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "What is the main theme of the “Change My Mind” meme?",
+      "answers": ["Debate and discussion", "Argument", "Friendship", "Love"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "What is the main theme of the “Is This a Pigeon?” meme?",
+      "answers": ["Misunderstanding", "Confusion", "Love", "Friendship"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "What is the main theme of the “Expanding Brain” meme?",
+      "answers": ["Intelligence and enlightenment", "Dumbness", "Friendship", "Love"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "What is the main theme of the “Surprised Pikachu” meme?",
+      "answers": ["Shock and surprise", "Happiness", "Sadness", "Anger"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "What is the main theme of the “Two Buttons” meme?",
+      "answers": ["Decision-making", "Friendship", "Love", "Happiness"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "What is the main theme of the “Drake Hotline Bling” meme?",
+      "answers": ["Preference and choice", "Friendship", "Love", "Happiness"],
+      "correctAnswerIndex": 0
     }
   ]
 }
