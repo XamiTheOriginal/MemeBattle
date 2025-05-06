@@ -1,0 +1,20 @@
+project_name: Meme Battle
+description: A C# application where users answer questions and see memes based on their answers.
+version: 1.0.0
+author: Tanishq Gupta
+dependencies:
+  - Newtonsoft.Json
+  - System.Net.Http
+  - System.Text.Json
+license: MIT
+repository: https://github.com/tanishqgupta/MemeBattle
+issues: https://github.com/tanishqgupta/MemeBattle/issues
+keywords:
+  - memes
+  - C#
+  - questions
+  - fun
+  - application
+contributors:
+  - Tanishq Gupta
+  - Open to contributions
