@@ -2,31 +2,31 @@
   "quiz": [
     {
       "id": 1,
-      "question": "What is the capital of France?",
+      "question": "What Is The Capital Of France?",
       "answers": ["Berlin", "Madrid", "Paris", "Rome"],
       "correctAnswerIndex": 2
     },
     {
       "id": 2,
-      "question": "What is the result of 5 + 3?",
+      "question": "What Is The Result Of 5 + 3?",
       "answers": ["5", "8", "12", "7"],
       "correctAnswerIndex": 1
     },
     {
       "id": 3,
-      "question": "What color is the sky on a clear day?",
+      "question": "What Color Is The Sky On A Clear Day?",
       "answers": ["Green", "Blue", "Red", "Yellow"],
       "correctAnswerIndex": 1
     },
     {
       "id": 4,
-      "question": "What is the largest ocean in the world?",
+      "question": "What Is The Largest Ocean In The World?",
       "answers": ["Atlantic", "Pacific", "Indian", "Arctic"],
       "correctAnswerIndex": 1
     },
     {
       "id": 5,
-      "question": "How many continents are there on Earth?",
+      "question": "How Many Continents Are There On Earth?",
       "answers": ["4", "5", "6", "7"],
       "correctAnswerIndex": 3
     },
