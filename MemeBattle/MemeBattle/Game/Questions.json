@@ -128,19 +128,19 @@
     },
     {
       "id": 22,
-      "question": "Which of the following is a chapri game?",
+      "question": "Which of the Following is a chapri game?",
       "answers": ["PUBG", "COC", "candy crush", "freefire"],
       "correctAnswerIndex": 3
     },
     {
       "id": 23,
-      "question": "What is a mountain chicken?",
+      "question": "What is a Mountain chicken?",
       "answers": ["big hen", "cat", "frog", "dinosaur"],
       "correctAnswerIndex": 2
     },
     {
       "id": 24,
-      "question": "Which skin colour is superior?",
+      "question": "Which Skin Colour is superior?",
       "answers": ["white", "black", "brown", "all are equal ^_^"],
       "correctAnswerIndex": 3
     },
@@ -160,13 +160,13 @@
     },
     {
       "id": 27,
-      "question": "What is the name of the popular meme featuring a dog surrounded by flames saying “This is fine”?",
+      "question": "What is the name of the Popular meme featuring a dog surrounded by flames saying “This is fine”?",
       "answers": ["This is fine", "Dog in fire", "Flame dog", "Fire dog"],
       "correctAnswerIndex": 0
     },
     {
       "id": 28,
-      "question": "Which meme shows a woman yelling at a confused-looking cat sitting at a dinner table?",
+      "question": "Which Meme shows a woman yelling at a confused-looking cat sitting at a dinner table?",
       "answers": ["Angry Karen Cat", "Woman Yelling at a Cat", "Dinner Drama", "Screaming Lady Cat"],
       "correctAnswerIndex": 1
     },
