@@ -32,31 +32,31 @@
     },
     {
       "id": 6,
-      "question": "Who painted the Mona Lisa?",
+      "question": "Who Painted The Mona Lisa?",
       "answers": ["Van Gogh", "Picasso", "Leonardo da Vinci", "Monet"],
       "correctAnswerIndex": 2
     },
     {
       "id": 7,
-      "question": "Which chemical element is represented by the symbol 'O'?",
+      "question": "Which Chemical Element Is Represented By The Symbol 'O'?",
       "answers": ["Gold", "Oxygen", "Osmium", "Ozone"],
       "correctAnswerIndex": 1
     },
     {
       "id": 8,
-      "question": "What is the fastest land animal?",
+      "question": "What Is The Fastest Land Animal?",
       "answers": ["Cheetah", "Lion", "Gazelle", "Leopard"],
       "correctAnswerIndex": 0
     },
     {
       "id": 9,
-      "question": "Which country is known for the Eiffel Tower?",
+      "question": "Which Country Is Known For The Eiffel Tower?",
       "answers": ["Spain", "Italy", "France", "Germany"],
       "correctAnswerIndex": 2
     },
     {
       "id": 10,
-      "question": "Which planet is called the Red Planet?",
+      "question": "Which Planet Is Called The Red Planet?",
       "answers": ["Jupiter", "Mars", "Saturn", "Venus"],
       "correctAnswerIndex": 1
     },
