@@ -92,31 +92,31 @@
     },
     {
       "id": 16,
-      "question": "Which colour has the longest wave-length?",
+      "question": "Which Colour Has The Longest Wave-Length?",
       "answers": ["lemon", "Red", "Green", "Blue"],
       "correctAnswerIndex": 1
     },
     {
       "id": 17,
-      "question": "Biggest streamer on youtube?",
+      "question": "Biggest Streamer On Youtube?",
       "answers": ["PewDiePie", "IShowSpeed", "Carryminati", "KSI"],
       "correctAnswerIndex": 1
     },
     {
       "id": 18,
-      "question": "Complete the brairot word: skibidi ______?",
+      "question": "Complete The Brairot Word: Skibidi ______?",
       "answers": ["Man", "washroom", "toilet", "skubidu"],
       "correctAnswerIndex": 2
     },
     {
       "id": 19,
-      "question": "Best way the propose a girl?",
+      "question": "Best Way The Propose A Girl?",
       "answers": ["direct approach", "become her bbf", "be toxic", "eat five-star and do nothing"],
       "correctAnswerIndex": 3
     },
     {
       "id": 20,
-      "question": "What is glass made up of (minecraft-edition)?",
+      "question": "What Is Glass Made Up Of (Minecraft-Edition)?",
       "answers": ["soil", "carbon", "sand", "crystal"],
       "correctAnswerIndex": 2
     },
