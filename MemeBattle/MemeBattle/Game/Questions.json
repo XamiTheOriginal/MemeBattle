@@ -184,31 +184,31 @@
     },
     {
       "id": 31,
-      "question": "Which meme features a shocked Pikachu face?",
+      "question": "Which Meme Features A Shocked Pikachu Face?",
       "answers": ["Pikachu Surprise", "Shocked Pikachu", "Pikachu Reacts", "Pika Shock"],
       "correctAnswerIndex": 1
     },
     {
       "id": 32,
-      "question": "What does the “Arthur’s Fist” meme represent?",
+      "question": "What Does The “Arthur’s Fist” Meme Represent?",
       "answers": ["Anger and frustration", "Happiness", "Sadness", "Confusion"],
       "correctAnswerIndex": 0
     },
     {
       "id": 33,
-      "question": "What is the main theme of the “Distracted Boyfriend” meme?",
+      "question": "What Is The Main Theme Of The “Distracted Boyfriend” Meme?",
       "answers": ["Distraction", "Love triangle", "Friendship", "Work-life balance"],
       "correctAnswerIndex": 1
     },
     {
       "id": 34,
-      "question": "Which meme features a dog with a Shiba Inu face and Comic Sans text?",
+      "question": "Which Meme Features A Dog With A Shiba Inu Face And Comic Sans Text?",
       "answers": ["Doge", "Shiba Meme", "Inu Meme", "Doggo"],
       "correctAnswerIndex": 0
     },
     {
       "id": 35,
-      "question": "What is the main theme of the “Change My Mind” meme?",
+      "question": "What Is The Main Theme Of The “Change My Mind” Meme?",
       "answers": ["Debate and discussion", "Argument", "Friendship", "Love"],
       "correctAnswerIndex": 0
     },
