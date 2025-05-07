@@ -153,32 +153,32 @@
     },
     {
       "id": 26,
-      "question": "What’s the usual context of the “Woman Yelling at a Cat” meme?",
+      "question": "What’s The Usual Context Of The “Woman Yelling At A Cat” Meme?",
       "answers": ["A woman explaining politics to a cat", "A dramatic argument with a confused reaction", "A joke about cookingø", "65km"],
       "correctAnswerIndex": 1
 
     },
     {
       "id": 27,
-      "question": "What is the name of the Popular meme featuring a dog surrounded by flames saying “This is fine”?",
+      "question": "What Is The Name Of The Popular Meme Featuring A Dog Surrounded By Flames Saying “This Is Fine”?",
       "answers": ["This is fine", "Dog in fire", "Flame dog", "Fire dog"],
       "correctAnswerIndex": 0
     },
     {
       "id": 28,
-      "question": "Which Meme shows a woman yelling at a confused-looking cat sitting at a dinner table?",
+      "question": "Which Meme Shows A Woman Yelling At A Confused-Looking Cat Sitting At A Dinner Table?",
       "answers": ["Angry Karen Cat", "Woman Yelling at a Cat", "Dinner Drama", "Screaming Lady Cat"],
       "correctAnswerIndex": 1
     },
     {
       "id": 29,
-      "question": "What phrase is commonly associated with the “Mocking SpongeBob” meme?",
+      "question": "What Phrase Is Commonly Associated With The “Mocking SpongeBob” Meme?",
       "answers": ["Okay, Boss", "RePeAt ThIs LiKe An IdIoT.", "Why you mad?", "Chill out bro!"],
       "correctAnswerIndex": 1
     },
     {
       "id": 30,
-      "question": "What meme features two buttons and a sweating man trying to decide?",
+      "question": "What Meme Features Two Buttons And A Sweating Man Trying To Decide?",
       "answers": ["Confused Guy", "Two Button Dilemma", "Sweating Man Decision", "Hard Choice Meme"],
       "correctAnswerIndex": 1
     },
