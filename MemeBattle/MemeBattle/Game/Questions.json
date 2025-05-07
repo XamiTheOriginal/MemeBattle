@@ -214,31 +214,31 @@
     },
     {
       "id": 36,
-      "question": "What is the main theme of the “Is This a Pigeon?” meme?",
+      "question": "What Is The Main Theme Of The “Is This A Pigeon?” Meme?",
       "answers": ["Misunderstanding", "Confusion", "Love", "Friendship"],
       "correctAnswerIndex": 1
     },
     {
       "id": 37,
-      "question": "What is the main theme of the “Expanding Brain” meme?",
+      "question": "What Is The Main Theme Of The “Expanding Brain” Meme?",
       "answers": ["Intelligence and enlightenment", "Dumbness", "Friendship", "Love"],
       "correctAnswerIndex": 0
     },
     {
       "id": 38,
-      "question": "What is the main theme of the “Surprised Pikachu” meme?",
+      "question": "What Is The Main Theme Of The “Surprised Pikachu” Meme?",
       "answers": ["Shock and surprise", "Happiness", "Sadness", "Anger"],
       "correctAnswerIndex": 0
     },
     {
       "id": 39,
-      "question": "What is the main theme of the “Two Buttons” meme?",
+      "question": "What Is The Main Theme Of The “Two Buttons” Meme?",
       "answers": ["Decision-making", "Friendship", "Love", "Happiness"],
       "correctAnswerIndex": 0
     },
     {
       "id": 40,
-      "question": "What is the main theme of the “Drake Hotline Bling” meme?",
+      "question": "What Is The Main Theme Of The “Drake Hotline Bling” Meme?",
       "answers": ["Preference and choice", "Friendship", "Love", "Happiness"],
       "correctAnswerIndex": 0
     }
