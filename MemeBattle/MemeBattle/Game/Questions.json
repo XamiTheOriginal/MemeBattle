@@ -62,31 +62,31 @@
     },
     {
       "id": 11,
-      "question": "Which of the following is not actually a colour?",
+      "question": "Which Of The Following Is Not Actually A Colour?",
       "answers": ["pink", "red", "grey", "blue"],
       "correctAnswerIndex": 2
     },
     {
       "id": 12,
-      "question": "Which of the following has the most manga sales?",
+      "question": "Which Of The Following Has The Most Manga Sales?",
       "answers": ["one-piece", "naruto", "solo-leveling", "dragon ball"],
       "correctAnswerIndex": 0
     },
     {
       "id": 13,
-      "question": "Which planet has the largest mountain in the solar system?",
+      "question": "Which Planet Has The Largest Mountain In The Solar System?",
       "answers": ["earth", "jupiter", "saturn", "mars"],
       "correctAnswerIndex": 3
     },
     {
       "id": 14,
-      "question": "According to ishowspeed who is the goat?",
+      "question": "According To Ishowspeed Who Is The Goat?",
       "answers": ["CR7", "Messi", "Neymar", "Mohamed Salah"],
       "correctAnswerIndex": 0
     },
     {
       "id": 15,
-      "question": "Which of the following is not a prime number?",
+      "question": "Which Of The Following Is Not A Prime Number?",
       "answers": ["7", "61", "1", "2"],
       "correctAnswerIndex": 2
     },
